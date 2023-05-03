@@ -40,7 +40,7 @@ public class PaginaIniziale extends javax.swing.JFrame{
         btnInizio = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Calcio");
@@ -64,7 +64,7 @@ public class PaginaIniziale extends javax.swing.JFrame{
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("LUCA REDOLATTI     NICOLA OREGIONI");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/soccer.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/soccer.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -82,10 +82,10 @@ public class PaginaIniziale extends javax.swing.JFrame{
                         .addGap(55, 55, 55))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(btnInizio)
-                        .addGap(350, 350, 350))
+                        .addGap(352, 352, 352))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addGap(286, 286, 286))))
+                        .addComponent(jLabel3)
+                        .addGap(172, 172, 172))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -95,10 +95,10 @@ public class PaginaIniziale extends javax.swing.JFrame{
                 .addGap(30, 30, 30)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addGap(32, 32, 32)
                 .addComponent(btnInizio)
-                .addGap(19, 19, 19))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -175,7 +175,7 @@ public class PaginaIniziale extends javax.swing.JFrame{
     private javax.swing.JButton btnInizio;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
