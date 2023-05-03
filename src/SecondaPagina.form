@@ -140,7 +140,7 @@
             <Component class="javax.swing.JButton" name="BtnIta">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\Flag_of_Italy.svg.png"/>
+                  <Image iconType="3" name="/img/Flag_of_Italy.svg.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -150,7 +150,7 @@
             <Component class="javax.swing.JButton" name="BtnSpagna">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\spagna.png"/>
+                  <Image iconType="3" name="/img/spagna.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -160,7 +160,7 @@
             <Component class="javax.swing.JButton" name="BtnBelgio">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\belgio.png"/>
+                  <Image iconType="3" name="/img/Flag_of_Belgium.svg.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -170,7 +170,7 @@
             <Component class="javax.swing.JButton" name="BtnGermania">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\germania.png"/>
+                  <Image iconType="3" name="/img/germania.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -180,7 +180,7 @@
             <Component class="javax.swing.JButton" name="BtnSvizzera">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\svizzera.png"/>
+                  <Image iconType="3" name="/img/svizzera.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -190,7 +190,7 @@
             <Component class="javax.swing.JButton" name="BtnArgentina">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\argentina.png"/>
+                  <Image iconType="3" name="/img/argentina.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -200,7 +200,7 @@
             <Component class="javax.swing.JButton" name="BtnFrancia">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\francia.png"/>
+                  <Image iconType="3" name="/img/francia.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -210,7 +210,7 @@
             <Component class="javax.swing.JButton" name="BtnPortogallo">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\portogallo.png"/>
+                  <Image iconType="3" name="/img/portogallo.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -220,7 +220,7 @@
             <Component class="javax.swing.JButton" name="BtnBrasile">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\Flag_of_Brazil.svg.png"/>
+                  <Image iconType="3" name="/img/Flag_of_Brazil.svg.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -230,7 +230,7 @@
             <Component class="javax.swing.JButton" name="BtnGranBretagna">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\grand bret.png"/>
+                  <Image iconType="3" name="/img/grand bret.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -240,7 +240,7 @@
             <Component class="javax.swing.JButton" name="BtnUsa">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\america.png"/>
+                  <Image iconType="3" name="/img/america.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -250,7 +250,7 @@
             <Component class="javax.swing.JButton" name="BtnGiappone">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\giappone.png"/>
+                  <Image iconType="3" name="/img/giappone.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -260,7 +260,7 @@
             <Component class="javax.swing.JButton" name="BtnPeru">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\peru.png"/>
+                  <Image iconType="3" name="/img/peru.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -270,7 +270,7 @@
             <Component class="javax.swing.JButton" name="BtnOlanda">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\olanda.png"/>
+                  <Image iconType="3" name="/img/olanda.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -280,7 +280,7 @@
             <Component class="javax.swing.JButton" name="BtnCroazia">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\lucar\OneDrive\Documenti\NetBeansProjects\ProgettoFinale\croazia.png"/>
+                  <Image iconType="3" name="/img/croazia.png"/>
                 </Property>
               </Properties>
               <Events>

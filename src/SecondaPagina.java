@@ -78,7 +78,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(102, 153, 255));
         jPanel2.setLayout(new java.awt.GridLayout(3, 5, 10, 10));
 
-        BtnIta.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\Flag_of_Italy.svg.png")); // NOI18N
+        BtnIta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Flag_of_Italy.svg.png"))); // NOI18N
         BtnIta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnItaActionPerformed(evt);
@@ -86,7 +86,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnIta);
 
-        BtnSpagna.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\spagna.png")); // NOI18N
+        BtnSpagna.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/spagna.png"))); // NOI18N
         BtnSpagna.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnSpagnaActionPerformed(evt);
@@ -94,7 +94,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnSpagna);
 
-        BtnBelgio.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\belgio.png")); // NOI18N
+        BtnBelgio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Flag_of_Belgium.svg.png"))); // NOI18N
         BtnBelgio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnBelgioActionPerformed(evt);
@@ -102,7 +102,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnBelgio);
 
-        BtnGermania.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\germania.png")); // NOI18N
+        BtnGermania.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/germania.png"))); // NOI18N
         BtnGermania.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnGermaniaActionPerformed(evt);
@@ -110,7 +110,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnGermania);
 
-        BtnSvizzera.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\svizzera.png")); // NOI18N
+        BtnSvizzera.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/svizzera.png"))); // NOI18N
         BtnSvizzera.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnSvizzeraActionPerformed(evt);
@@ -118,7 +118,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnSvizzera);
 
-        BtnArgentina.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\argentina.png")); // NOI18N
+        BtnArgentina.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/argentina.png"))); // NOI18N
         BtnArgentina.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnArgentinaActionPerformed(evt);
@@ -126,7 +126,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnArgentina);
 
-        BtnFrancia.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\francia.png")); // NOI18N
+        BtnFrancia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/francia.png"))); // NOI18N
         BtnFrancia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnFranciaActionPerformed(evt);
@@ -134,7 +134,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnFrancia);
 
-        BtnPortogallo.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\portogallo.png")); // NOI18N
+        BtnPortogallo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/portogallo.png"))); // NOI18N
         BtnPortogallo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnPortogalloActionPerformed(evt);
@@ -142,7 +142,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnPortogallo);
 
-        BtnBrasile.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\Flag_of_Brazil.svg.png")); // NOI18N
+        BtnBrasile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Flag_of_Brazil.svg.png"))); // NOI18N
         BtnBrasile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnBrasileActionPerformed(evt);
@@ -150,7 +150,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnBrasile);
 
-        BtnGranBretagna.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\grand bret.png")); // NOI18N
+        BtnGranBretagna.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/grand bret.png"))); // NOI18N
         BtnGranBretagna.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnGranBretagnaActionPerformed(evt);
@@ -158,7 +158,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnGranBretagna);
 
-        BtnUsa.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\america.png")); // NOI18N
+        BtnUsa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/america.png"))); // NOI18N
         BtnUsa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnUsaActionPerformed(evt);
@@ -166,7 +166,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnUsa);
 
-        BtnGiappone.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\giappone.png")); // NOI18N
+        BtnGiappone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/giappone.png"))); // NOI18N
         BtnGiappone.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnGiapponeActionPerformed(evt);
@@ -174,7 +174,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnGiappone);
 
-        BtnPeru.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\peru.png")); // NOI18N
+        BtnPeru.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/peru.png"))); // NOI18N
         BtnPeru.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnPeruActionPerformed(evt);
@@ -182,7 +182,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnPeru);
 
-        BtnOlanda.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\olanda.png")); // NOI18N
+        BtnOlanda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/olanda.png"))); // NOI18N
         BtnOlanda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnOlandaActionPerformed(evt);
@@ -190,7 +190,7 @@ public class SecondaPagina extends javax.swing.JFrame {
         });
         jPanel2.add(BtnOlanda);
 
-        BtnCroazia.setIcon(new javax.swing.ImageIcon("C:\\Users\\lucar\\OneDrive\\Documenti\\NetBeansProjects\\ProgettoFinale\\croazia.png")); // NOI18N
+        BtnCroazia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/croazia.png"))); // NOI18N
         BtnCroazia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnCroaziaActionPerformed(evt);
