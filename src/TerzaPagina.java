@@ -1,3 +1,5 @@
+
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -11,13 +13,13 @@ public class TerzaPagina extends javax.swing.JFrame {
 
     /**
      * Creates new form TerzaPagina
+     * 
      */
     
-  
-    
-    
+   
     public TerzaPagina() {
-       
+       initComponents();
+       lblPorta.add(lblPalla);
     }
 
     /**
@@ -30,18 +32,36 @@ public class TerzaPagina extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        lblPorta = new javax.swing.JLabel();
+        lblPalla = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setPreferredSize(new java.awt.Dimension(640, 360));
+
+        lblPorta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/porta vuota.jpg"))); // NOI18N
+
+        lblPalla.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/palla.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(lblPorta)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblPalla)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(lblPorta))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(167, 167, 167)
+                .addComponent(lblPalla)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -86,14 +106,20 @@ public class TerzaPagina extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
+        
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new TerzaPagina().setVisible(true);
             }
+          
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lblPalla;
+    private javax.swing.JLabel lblPorta;
     // End of variables declaration//GEN-END:variables
+   
 }
