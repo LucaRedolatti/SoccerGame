@@ -280,7 +280,10 @@ public class SecondaPagina extends javax.swing.JFrame {
             
                 TerzaPagina tre = new TerzaPagina();
                 tre.setVisible(true);
+                this.setVisible(false);
             }
+            
+            
             
         
     }//GEN-LAST:event_BtnStartActionPerformed
