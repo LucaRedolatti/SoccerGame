@@ -28,6 +28,7 @@ public class TerzaPagina extends javax.swing.JFrame {
     
     public TerzaPagina() {
          initComponents();
+         //ertrttr
     }
 
     /**
