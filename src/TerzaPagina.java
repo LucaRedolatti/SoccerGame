@@ -12,6 +12,7 @@ import java.awt.Image;
  */
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
@@ -22,7 +23,7 @@ public class TerzaPagina extends javax.swing.JFrame {
     /**
      * Creates new form TerzaPagina
      */
-    
+    int x = 50, y = 50;
   
     
     
@@ -45,12 +46,17 @@ public class TerzaPagina extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1000, 661));
+        setPreferredSize(new java.awt.Dimension(800, 560));
+        addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                formKeyTyped(evt);
+            }
+        });
         getContentPane().setLayout(null);
 
         lblPalla.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/palla.png"))); // NOI18N
         getContentPane().add(lblPalla);
-        lblPalla.setBounds(350, 450, 110, 99);
+        lblPalla.setBounds(340, 450, 100, 90);
 
         lblPortiere.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/portiere 0.png"))); // NOI18N
         getContentPane().add(lblPortiere);
@@ -62,6 +68,27 @@ public class TerzaPagina extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void formKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_formKeyTyped
+        Mirino m = new Mirino();
+        int keyCode = evt.getKeyCode();
+        jLabel2.removeAll();
+        jLabel2.add(m);
+       //dovete guardarvi i codici dei bottoni
+       
+        //destra
+        if(keyCode == 0){
+            x +=5 ;
+            m.setCoordinate(x, y);
+        }
+
+        //sinistra
+
+        //su77
+
+        //giu
+        m.repaint();
+    }//GEN-LAST:event_formKeyTyped
 
     /**
      * @param args the command line arguments
