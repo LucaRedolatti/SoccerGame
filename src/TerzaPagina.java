@@ -40,23 +40,25 @@ public class TerzaPagina extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        lblPalla = new javax.swing.JLabel();
+        lblPortiere = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1000, 661));
         getContentPane().setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/portiere 0.png"))); // NOI18N
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(210, 220, 190, 220);
+        lblPalla.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/palla.png"))); // NOI18N
+        getContentPane().add(lblPalla);
+        lblPalla.setBounds(350, 450, 110, 99);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/palla.png"))); // NOI18N
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(410, 480, 170, 130);
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(590, 250, 0, 0);
+        lblPortiere.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/portiere 0.png"))); // NOI18N
+        getContentPane().add(lblPortiere);
+        lblPortiere.setBounds(300, 250, 190, 180);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/porta 2.png"))); // NOI18N
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(0, 0, 800, 560);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -98,7 +100,7 @@ public class TerzaPagina extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel lblPalla;
+    private javax.swing.JLabel lblPortiere;
     // End of variables declaration//GEN-END:variables
 }
