@@ -40,20 +40,23 @@ public class TerzaPagina extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1000, 661));
         getContentPane().setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/palla.png"))); // NOI18N
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(460, 570, 0, 90);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/portiere 0.png"))); // NOI18N
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(210, 220, 190, 220);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/portiere.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/palla.png"))); // NOI18N
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(410, 480, 170, 130);
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(380, 230, 0, 0);
+        jLabel3.setBounds(590, 250, 0, 0);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -94,7 +97,8 @@ public class TerzaPagina extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }
